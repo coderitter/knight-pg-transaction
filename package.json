@@ -21,7 +21,7 @@
     "typescript": "^3.9.7"
   },
   "scripts": {
-    "test": "docker-compose up",
+    "test": "docker compose up",
     "build": "rm -rf lib && tsc"
   },
   "repository": {
